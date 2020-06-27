@@ -4,15 +4,17 @@ const connectionUrl = 'mongodb://127.0.0.1:27017/ideas_overflow';
 
 let _db;
 
-const mongoConnect = () => {
+//Connects to DB
+const mongoConnect = callback => {
     mongoClient.connect(connectionUrl).then(client => {
         _db = client.db();
+        callback();
     }).catch( err => {
         console.log(err);
     });
-}
+};
 
-// Returns the connect DB.
+// Returns the connected DB object.
 const getDb = () => {
     if (_db) {
         return _db;

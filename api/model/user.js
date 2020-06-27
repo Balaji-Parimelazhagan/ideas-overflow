@@ -14,4 +14,22 @@ module.exports = class User {
             console.log(result);
         });
     }
+
+    // Find whether the username is present.
+    findByUserName() {
+        const db = getDb();
+        return db.collection('users').find({userName: this.userName}).toArray();
+    }
+
+    // Find whether the username is present.
+    checkUserName(enteredUserName) {
+        const db = getDb();
+        return db.collection('users').find({userName: enteredUserName}).toArray();
+    }
+
+    // Find whether the username is present.
+    checkEmailId(enteredEmailId) {
+        const db = getDb();
+        return db.collection('users').find({emailId: enteredEmailId}).toArray();
+    }
 }
