@@ -1,0 +1,22 @@
+<div class="">
+    <div class="mt-5 mx-2 color-white"><h4>Ask a public question</h4></div>
+    <form (ngSubmit)="onSubmit()" >
+        <div class="ques-container rounded-sm e-border p-2">
+            <label class="color-white m-0" for="ques-title"><h6 class="mb-n1 mb-0 font-weight-bolder">Title</h6>
+                <small class="color-white m-0">Be specific and imagine you’re asking a question to another person</small>
+            </label>
+            <input type="text" id="ques-title" class="bg-black p-1 q-title rounded-sm e-border" ngModel name="title" placeholder="e.g. Is there a library that calculates the age?" />
+            
+            <label class="color-white m-0" for="ques-body"><h6 class="mb-n1 mt-3 font-weight-bolder">Body</h6>
+                <small class="color-white m-0">Include all the information someone would need to answer your question</small>
+            </label>
+            <input type="textarea" class="bg-black p-1 q-body rounded-sm e-border"  ngModel name="body" id="ques-body" />
+            
+            <label class="color-white m-0" for="ques-tags"><h6 class="mb-n1 mt-3 font-weight-bolder">Tags</h6>
+                <small class="color-white m-0">Add up to 5 tags to describe what your question is about</small>
+            </label>
+            <input type="textarea" class="bg-black p-1 q-tags rounded-sm e-border"  ngModel name="tags" id="ques-tags" />
+        </div>
+        <button type="submit" class="btn mt-4 rounded-sm btn-primary review-btn">Review you question</button>
+    </form>
+</div>

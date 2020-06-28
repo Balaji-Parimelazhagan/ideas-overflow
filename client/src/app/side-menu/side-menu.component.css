@@ -1,0 +1,13 @@
+.menu-container {
+    width: 164px;
+    height: 100%;
+    color:#c4c8cc
+}
+
+.side-menu {
+    list-style-type: none;
+}
+
+li {
+    margin-top: 5px;
+}
