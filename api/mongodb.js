@@ -1,6 +1,6 @@
 const mongodb = require('mongodb');
 const mongoClient = mongodb.MongoClient;
-const connectionUrl = 'mongodb://127.0.0.1:27017'
+const connectionUrl = 'mongodb://127.0.0.1:27017/'
 const dataBaseName = 'ideas_overflow'
 
 mongoClient.connect(connectionUrl, {useNewUrlParser: true} ,(error, client) => {
