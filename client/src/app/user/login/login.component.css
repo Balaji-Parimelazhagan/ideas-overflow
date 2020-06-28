@@ -1,0 +1,17 @@
+section {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+section form {
+  border-radius: 5px;
+}
+
+section .forgot-password {
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.sign-up {
+  cursor: pointer;
+}

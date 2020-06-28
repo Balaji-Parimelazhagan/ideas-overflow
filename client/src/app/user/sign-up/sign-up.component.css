@@ -1,0 +1,9 @@
+section {
+  max-width: 300px;
+  margin: auto;
+  border-radius: 3px;
+}
+
+section form {
+  border-radius: 5px;
+}
