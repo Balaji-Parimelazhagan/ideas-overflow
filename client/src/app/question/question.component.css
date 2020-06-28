@@ -1,0 +1,44 @@
+.question{
+    border-top: 1px solid #697075;
+}
+.counts {
+    min-width: 38px;
+    height: auto;
+    font-size: 11px;
+    color: #697075;
+}
+
+.green {
+    color: #65b27c;
+    border: 1px solid #65b27c;
+    border-radius: 3px;
+}
+
+.f-size-18 {
+    font-size: 18px !important;
+}
+
+.color-blue {
+    color: #3EA3FB;
+}
+
+.rep-count {
+    background: #3EA3FB;
+    color: white;
+    font-size: 12px;
+    height: 18px;
+}
+
+.summary {
+    font-size: 12x;
+    height: 18px;
+    color: #78C4F8;
+    line-height: 18px;
+    vertical-align: middle;
+}
+
+.tags {
+    background: #43525F;
+    color: #A3D0D7;
+    font-size: 12px;
+}

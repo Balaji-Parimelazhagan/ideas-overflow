@@ -1,0 +1,19 @@
+.home {
+    width: 1100px;
+    height: 90%;
+    border-left: thin solid #697075;
+}
+
+.title {
+    color: white;
+}
+
+.color-grey {
+    color: #B7B6B4;
+    border-color: #B7B6B4;
+}
+
+.color-blue {
+    background: #3ea3fb;
+    color: #EEE1FE;
+}
